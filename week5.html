@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a java object</p>
+    <p id="demo"></p>
+    <script>
+        const person={
+            name:"Ali",
+            age:"21",
+            city:"Lahore"
+        };
+
+         let text = " ";
+         for(let x in person)
+         {
+             text += person[x] + " ";
+         }
+
+         document.getElementById('demo').innerHTML= text;
+
+         const myarray = Object.values(person);
+         document.getElementById('demo').innerHTML= myarray;
+
+        const fruit = {A:20, B:30, C:40};
+        let ff = " ";
+        for(let f in fruit)
+        {
+            ff += fruit[f] + " ";
+        }
+        document.getElementById('demo').innerHTML= ff;
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('developer.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    text-size-adjust: 200;
+    font-size: 100px;
+    
+  }
+  h2{
+    text-align: center;
+    color: black;
+    padding: 0px;
+  }
+  .text-box {
+    border: 0.1px solid #000;   
+    margin: 0px;           
+    background-color: #f0f0f0; 
+    border-radius: 0.2px;         
+    color: #333;          
+}
